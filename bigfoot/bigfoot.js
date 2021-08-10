@@ -1,8 +1,6 @@
+
 function loadBigFoot() {
-
-	document.getElementById('bigfoot').src = 'bigfoot.png'
-	
-
+	document.getElementById('bigfoot').src = './images/bigfoot.png'
 }
 
 function moveBigFoot() {
@@ -10,11 +8,10 @@ function moveBigFoot() {
 	let picture = document.getElementById('bigfoot')
 
 	let x = Math.random() * 1000
-	let y = Math.random() * 1400
+	let y = Math.random() * 1000
 
 	picture.style.top = x + 'px'
 	picture.style.left = y  + 'px'
-
 }
 
 
