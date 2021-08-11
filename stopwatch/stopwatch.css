@@ -1,0 +1,43 @@
+
+body {
+	text-align: center;
+	width: 500px;
+	margin: 0px auto;
+	background-color: silver;
+}
+
+div.wrapper {
+	margin-top: 300px;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+span, p  {
+	font-size: 3em;
+	display: inline-block;
+}
+
+div.box {
+	border: 4px solid black;
+	border-radius: 4px;
+}
+
+button {
+	color: green;
+ 	background-color: green;
+	width:120px;
+	height:50px;
+ 	margin:20px;
+	font-size:17px;
+ 	color:white;
+	border:none;
+	border: 4px solid green;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
